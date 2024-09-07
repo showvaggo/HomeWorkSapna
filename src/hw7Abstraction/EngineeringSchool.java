@@ -9,5 +9,8 @@ public abstract class EngineeringSchool {
 
 	// abstract methods
 	public abstract void mechanicalLab();
+		
+	}
+	
 
-}
+

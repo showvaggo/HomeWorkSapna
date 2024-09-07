@@ -11,7 +11,6 @@ public interface University {
 
 	// default constructor is not possible to create inside the interface body.
 	// Interface cannot have constructors.
-public University() {
-	System.out.println();
-}
+//public University(){	
+
 }
