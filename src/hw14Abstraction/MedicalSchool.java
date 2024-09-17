@@ -1,4 +1,4 @@
-package hw10Abstraction;
+package hw14Abstraction;
 
 public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 	// Implements keyword is used to inherit Interface in regular class.

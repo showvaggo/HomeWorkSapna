@@ -9,7 +9,7 @@ public class EmployeeTest {
 		employee.setEmSex('F');
 		employee.setEmCitizen(true);
 
-		System.out.println(" Employee Name: " + employee.getEmNameString() + "\nEmployee Age:" + employee.getEmAge()
+		System.out.println("Employee Name: " + employee.getEmNameString() + "\nEmployee Age:" + employee.getEmAge()
 				+ "\nEmployee Sex :" + employee.getEmSex() + "\nEmployee Citizen?" + employee.isEmCitizen());
 
 	}

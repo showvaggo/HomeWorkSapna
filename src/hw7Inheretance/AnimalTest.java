@@ -54,7 +54,7 @@ public class AnimalTest {
 		cobra.animalInfo();
 
 		// Mammal,Reptile,and Bird extends to animal. its a Hierarchical inheritance.
-		// Bulldog,Dog,Mammal extends to animal. Its a Multilevel inheritance.
+		// Bulldog extends Dog, dog extends Mammal,Mammal extends to animal. Its a Multilevel inheritance.
 		// Mammal extends to Animal.Its a Single inheritance.
 	}
 
