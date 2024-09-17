@@ -1,7 +1,7 @@
 package hw14Abstraction;
 
 //a regular class
-public class ClumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
+public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 
 	// A regular class can inherit only one regular or abstract class by extends
 	// keyword.
@@ -17,7 +17,7 @@ public class ClumbiaUniversity extends MedicalSchool implements University, Voca
 	// public abstract void biology() {
 
 	// default Constructor declared.
-	public ClumbiaUniversity() {
+	public ColumbiaUniversity() {
 
 	}
 
