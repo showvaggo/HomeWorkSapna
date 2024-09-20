@@ -10,26 +10,25 @@ public class TestFamily {
 		Father father2 = new Father("Showvaggo", 95, 'M', true);
 		System.out.println("\n.......parameterized constructor initialized from the Father class......");
 
-		father.fatherInfo("Showvaggo Roy", 95, 'M', true);
+		father.father();
 		System.out.println("\n.......void type method initialized from the Father class......");
 
 		father.fatherInfo("Showvaggo", 95, 'M', true);
 		System.out.println("\n.......parameterized type method initialized from the Father class......");
 
 		System.out.println("\n......default constructor initialized from the Doughter class.......");
-		
-System.out.println("\n......default constructor initialized from the Daughter class.......");
-	Daughter daughter= new Daughter();
-	
-	
-	System.out.println("\n......parameterized constructor initialized from the Daughter class.......");
-	Daughter daughter1=new Daughter("Tweety:August 22", 60);
-	
-	System.out.println("\n.......parameterized type method initialized from the daughter class......");
-	daughter.daughterInfo("Sweety : july,6", 55);
-	
-	System.out.println("\n.......void type method initialized from the daughter class......");
-	daughter.daughter();
+
+		System.out.println("\n......default constructor initialized from the Daughter class.......");
+		Daughter daughter = new Daughter();
+
+		System.out.println("\n......parameterized constructor initialized from the Daughter class.......");
+		Daughter daughter1 = new Daughter("Tweety:August 22", 60);
+
+		System.out.println("\n.......parameterized type method initialized from the daughter class......");
+		daughter.daughterInfo("Sweety : july,6", 55);
+
+		System.out.println("\n.......void type method initialized from the daughter class......");
+		daughter.daughter();
 		
 		
 		

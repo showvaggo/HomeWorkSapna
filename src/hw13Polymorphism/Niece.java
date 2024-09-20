@@ -2,6 +2,7 @@ package hw13Polymorphism;
 /*
  * Final method also can not @Override from sister class, Final keyword doesn't allow any changes
  * in the method,variable,class.no change same as like parent class method.
+ * we can not @Override  static method also.
  */
 
 public class Niece extends Sister {

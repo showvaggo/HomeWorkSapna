@@ -19,6 +19,8 @@ public class TestInstitute {
 		cUniversity.gymnasium();
 		cUniversity.hygiene();
 
+//University university= new University
+		// University is a Interface.. we can not instantiate Interface.
 		University university = new ColumbiaUniversity();
 		university.cafeteria();
 		university.classSize();
@@ -31,6 +33,8 @@ public class TestInstitute {
 		university.playground();
 		university.teacher();
 
+//medicalSchool mSchool=new MedicalSchool
+		// medicalSchool is an abstract class.We can not instantiate abstract class.
 		MedicalSchool mSchool = new ColumbiaUniversity();
 		mSchool.anatomyLab();
 		mSchool.anthropology();
