@@ -18,7 +18,7 @@ public class Temperature {
 	int todaysTemperature5 = scanner.nextInt();
 	{
 		if (todaysTemperature1 < 32) {
-			System.out.println(".....Freezing......");
+			System.out.println("'.....Freezing.......");
 
 		} else if (todaysTemperature2 < 55) {
 			System.out.println("....Pleasent......");
