@@ -4,24 +4,20 @@ public class Voter {
 
 	public static void main(String[] args) {
 
-		int age1 = 18;
-		int age2 = 16;
+		int age = 20;
 
-		if (age1 == age2) {
+		if (age == 18) {
+			System.out.println("I am a Voter");
 
-		} else if (age1 < age2) {
+		} else if (age < 18) {
 			System.out.println("....I am not a voter...");
 
-		} else if (age1 > age2) {
+		} else if (age > 18) {
 			System.out.println(".....I am  a Voter from age 18.....");
 
 		} else {
-			System.out.println(age1 + " is equal to " + age2);
-
-			{
-				System.out.println("....Please add a valid age....");
-
+			System.out.println("....Please add a valid age....");
 			}
 		}
 	}
-}
+
